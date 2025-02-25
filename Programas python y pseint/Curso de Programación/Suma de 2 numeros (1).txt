@@ -1,0 +1,8 @@
+Algoritmo sin_titulo
+	Imprimir "dime un numero"
+	leer x 
+	Imprimir "dime otro numero"
+	leer z
+	r = x+z
+	Imprimir "el resultado es" r
+FinAlgoritmo

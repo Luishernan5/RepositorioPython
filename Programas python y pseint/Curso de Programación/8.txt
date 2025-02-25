@@ -1,0 +1,13 @@
+Algoritmo sin_titulo
+	Imprimir "Dime tu numero final"
+	leer r
+	Imprimir "dime un numero"
+	leer x
+	Imprimir "dime otro numero"
+	leer m
+	si (x^2 + m^2 = r ) Entonces
+		Imprimir "cumple con la igualdad" r
+	SiNo
+		Imprimir "no cumple la igualdad" r
+	FinSi
+FinAlgoritmo

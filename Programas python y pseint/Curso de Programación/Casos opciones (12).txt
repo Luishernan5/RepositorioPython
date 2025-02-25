@@ -1,0 +1,81 @@
+Algoritmo sin_titulo
+	Imprimir "Elije una opción"
+	Imprimir "1.-Factorial de X número"
+	Imprimir "2.-Serie fibonacci"
+	Imprimir "3.-z^2 = x^2 + m^2"
+	Imprimir "4.-Tabla de multiplicar"
+	Imprimir "5.-Figura piramide "
+	Leer op
+	Segun op Hacer
+		1:  Imprimir "ingresa un número"
+			Leer x
+			A = 1
+			AC = 1
+			mientras (A <= x ) hacer 
+				AC = AC * A
+				A = A + 1
+			FinMientras
+			Imprimir "El resultado es" AC
+		2:  Imprimir "ingrese un número"
+			Leer x
+			A = 1
+			AC = 0
+			Mientras ( A <= x) Hacer
+				AC = AC + A
+				A = A + 1
+			FinMientras
+			Imprimir " el resultado es", AC
+		3:  Imprimir "Dime un número"
+			leer z
+			Imprimir "Los resultados posibles son: "
+			Para z desde 1 hasta z
+				Para x desde 1 Hasta z Hacer
+					para m desde 1 Hasta z Hacer
+						si z^2 = x^2 + m^2 Entonces
+							Imprimir z^2 " = " x^2 " + " m^2
+						finsi
+					finpara
+				FinPara
+			FinPara
+		4:  Imprimir "Que tabla de multiplicar deseas"
+			Leer x
+			A = 1
+			Mientras (A <= 10)
+				r = x * A
+				Imprimir x "*" A "=" r
+				A = A + 1
+			FinMientras
+		5:  Definir nf, k, j, ne, ne2, fila Como Entero
+			Imprimir "Ingresa un numero "
+			Leer nf
+			ne = 100
+			ne2 = 1
+			Para k = 1 Hasta ne + 1 Con Paso 1 Hacer
+				Escribir Sin Saltar " "
+			FinPara
+			Escribir "*"
+			Para fila = 1 Hasta nf - 2 Con Paso 1 Hacer
+				Escribir Sin Saltar ""
+				Para k = 1 Hasta ne Con Paso 1 Hacer
+					Escribir Sin Saltar" "
+				FinPara
+				Escribir Sin Saltar "*"
+				ne = ne - 1
+				Si fila >= 1 Entonces
+					Para k = 1 Hasta ne2 Con Paso 1 Hacer
+						Escribir Sin Saltar " "
+					FinPara
+					ne2 = ne2 + 2
+					Escribir "*"
+				FinSi
+			FinPara
+			Para k = 1 Hasta ne Con Paso 1 Hacer
+				Escribir Sin Saltar " "
+			FinPara
+			Escribir Sin Saltar "* "
+			Para k = 1 Hasta nf - 2 Con Paso 1 Hacer
+				Escribir Sin Saltar "* "
+			FinPara
+			Escribir "*"
+	FinSegun
+FinAlgoritmo

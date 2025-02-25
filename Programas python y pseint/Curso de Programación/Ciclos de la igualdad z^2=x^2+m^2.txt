@@ -1,0 +1,14 @@
+Algoritmo sin_titulo
+		imprimir "Dime un número"
+		leer z
+		Imprimir "Los resultados posibles son: "
+		Para z desde 1 hasta z
+			Para x desde 1 Hasta z Hacer
+				para m desde 1 Hasta z Hacer
+					si z^2 = x^2 + m^2 Entonces
+						Imprimir z^2 " = " x^2 " + " m^2
+					finsi
+				finpara
+			FinPara
+		FinPara
+FinAlgoritmo

@@ -1,0 +1,11 @@
+Algoritmo sin_titulo
+	Imprimir "ingresa un número"
+	leer x
+	Imprimir "ingresa otro número"
+	leer r
+	si (x > r ) Entonces
+		Imprimir "el número mayor es" x
+	SiNo
+		Imprimir "el número mayor es" r
+	FinSi
+FinAlgoritmo

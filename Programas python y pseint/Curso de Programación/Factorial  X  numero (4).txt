@@ -1,0 +1,11 @@
+Algoritmo sin_titulo
+	Imprimir "ingresa un número"
+	Leer x
+	A = 1
+	AC = 1
+	mientras (A <= x ) hacer 
+		AC = AC * A
+		A = A + 1
+	FinMientras
+	Imprimir "El resultado es" AC
+FinAlgoritmo

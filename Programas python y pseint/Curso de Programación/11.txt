@@ -1,0 +1,25 @@
+Algoritmo sin_titulo
+	Imprimir "dime 3 numeros"
+	leer a, b, c 
+	si a>b Entonces
+		si b>c Entonces
+			Imprimir "" c "," b "," a
+		SiNo
+			si a>c Entonces
+				Imprimir "" b "," c "," a
+			SiNo
+				Imprimir "" b "," a "," c
+			FinSi
+		FinSi
+	SiNo
+		si a>c Entonces
+			Imprimir "" c "," a "," b
+		SiNo
+			si b>c Entonces
+				Imprimir "" a "," c "," b
+			SiNo
+				Imprimir "" a "," b "," c
+			FinSi
+		FinSi
+	FinSi
+FinAlgoritmo

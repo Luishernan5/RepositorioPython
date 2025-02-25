@@ -1,0 +1,38 @@
+[
+    {
+        "label": "numero1",
+        "kind": 5,
+        "importPath": "ejemplo1",
+        "description": "ejemplo1",
+        "peekOfCode": "numero1 = 10\nnumero2 = 20\nnumero3 = numero1+numero2\nnumero4 = numero1-numero2\nprint(\"hola mundo :\")\nprint(\"la suma de los dos numeros es: \", numero3)\nprint(\"la resta de los dos numeros es: \", numero4)",
+        "detail": "ejemplo1",
+        "documentation": {}
+    },
+    {
+        "label": "numero2",
+        "kind": 5,
+        "importPath": "ejemplo1",
+        "description": "ejemplo1",
+        "peekOfCode": "numero2 = 20\nnumero3 = numero1+numero2\nnumero4 = numero1-numero2\nprint(\"hola mundo :\")\nprint(\"la suma de los dos numeros es: \", numero3)\nprint(\"la resta de los dos numeros es: \", numero4)",
+        "detail": "ejemplo1",
+        "documentation": {}
+    },
+    {
+        "label": "numero3",
+        "kind": 5,
+        "importPath": "ejemplo1",
+        "description": "ejemplo1",
+        "peekOfCode": "numero3 = numero1+numero2\nnumero4 = numero1-numero2\nprint(\"hola mundo :\")\nprint(\"la suma de los dos numeros es: \", numero3)\nprint(\"la resta de los dos numeros es: \", numero4)",
+        "detail": "ejemplo1",
+        "documentation": {}
+    },
+    {
+        "label": "numero4",
+        "kind": 5,
+        "importPath": "ejemplo1",
+        "description": "ejemplo1",
+        "peekOfCode": "numero4 = numero1-numero2\nprint(\"hola mundo :\")\nprint(\"la suma de los dos numeros es: \", numero3)\nprint(\"la resta de los dos numeros es: \", numero4)",
+        "detail": "ejemplo1",
+        "documentation": {}
+    }
+]

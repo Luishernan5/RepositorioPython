@@ -1,0 +1,9 @@
+Algoritmo sin_titulo
+	Imprimir "cuantas veces deseas visualizar tu nombre"
+	Leer x
+	A = 1
+	Mientras (A <= x)
+		Imprimir "Andres Rosales"
+		A = A + 1
+	FinMientras
+FinAlgoritmo
