@@ -1,9 +1,0 @@
-Algoritmo sin_titulo
-	Imprimir "Dime un numero"
-	leer x
-	si (x mod 2 = 0) Entonces
-		Imprimir "Es par"
-	SiNo
-		Imprimir "No es par"
-	FinSi
-FinAlgoritmo
