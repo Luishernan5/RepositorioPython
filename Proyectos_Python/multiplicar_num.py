@@ -1,3 +1,5 @@
+# Tablas de multipicar
+
 def suma ():
     while True:   
         x=int(input("ingresa un numero: "))
